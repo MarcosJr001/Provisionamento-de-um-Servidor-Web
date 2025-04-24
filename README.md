@@ -10,32 +10,25 @@ Este projeto contém um script Bash para provisionar automaticamente um servidor
 
 ## Como Usar
 
-1. Clone este repositório em seu servidor:
-
-    ```bash
-    git clone https://github.com/usuario/provisionamento-servidor-web-apache.git
-    cd provisionamento-servidor-web-apache
-    ```
-
-2. Torne o script executável:
+1 Torne o script executável:
 
     ```bash
     chmod +x provisionar_apache.sh
     ```
 
-3. Execute o script para instalar e configurar o Apache:
+2 Execute o script para instalar e configurar o Apache:
 
     ```bash
     ./provisionar_apache.sh
     ```
 
-4. Após a execução, abra um navegador e acesse o servidor pelo IP ou `localhost`:
+3. Após a execução, abra um navegador e acesse o servidor pelo IP ou `localhost`:
 
     ```
     http://<IP_DO_SERVIDOR>/
     ```
 
-5. Você verá a página de teste com a mensagem "Servidor Apache em execução com sucesso!"
+4. Você verá a página de teste com a mensagem "Servidor Apache em execução com sucesso!"
 
 ## Explicação do Script
 
